@@ -9,9 +9,10 @@
       padding-left: 10px; 
       padding-right: 30px; 
       border-radius: 8px;
-      text-align: center;
-      align-items: center;
+      /* text-align: center;
+      align-items: center; */
       border-color: #7018d4;
+      width: 800px;
       
   
   }
@@ -19,14 +20,10 @@
       height: 40px;
       background-color: rgb(255, 255, 255);
   }
-  .form-control{
-    height: 30px;
-    width: 00px;
-  }
-  .form-control-1{
-      width: 400px;
-      height: 110px;
-  }
+#textInput{
+width: 600px;
+}
+ 
   .todo {
       padding-top: 30px;
       padding-left: 0px;
@@ -132,17 +129,19 @@
       .fill-form {
         padding: 20px;
         margin-right: 5px;
-        width: 20vw;
+        width: 25vw;
         border-radius: 5px;
         font-family: sans-serif;
         top: 50px;
         border: #582e80 solid 5px;
       }
       #descriptionArea {
-        width: 100px;
+        width: 300px;
+        height: 100px;
       }
       #textInput{
-        width: 100px;
+        width: 300px;
+        height: 30px;
       }
       #dataInput{
         width: 100%;
