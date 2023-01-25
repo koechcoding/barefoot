@@ -65,9 +65,10 @@ width: 600px;
       align-items: center;
       border-radius: 8px;
       width: 600px;
+      margin-bottom: 5px;
   }
   .tasks-complete{
-      margin-bottom: 2px;
+      width: 600px;
   }
   #tasks2{
     margin: 0;
@@ -126,6 +127,9 @@ width: 600px;
       margin-top: 20px;
     }
     @media (min-width: 480px) {
+      .container{
+        
+      }
       .fill-form {
         padding: 20px;
         margin-right: 5px;
@@ -141,9 +145,10 @@ width: 600px;
       }
       #textInput{
         width: 300px;
-        height: 30px;
+        height: 40px;
       }
       #dataInput{
         width: 100%;
       }
     }
+    

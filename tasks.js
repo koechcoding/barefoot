@@ -36,7 +36,7 @@ let add = document.getElementById("add");
         <li  id=${y} class='task-list'>
         <span class="btn-utils">
         <button onClick= "editTask(this)" class = "open-modal edit" data-target="modal-1"> Edit</button>
-        <button onClick ="deleteTask(this);createTasks()" class="btn-delete">X</button>
+        <button onClick ="deleteTask(this);createTasks()" class="btn-delete">Delete</button>
       </span>
          
           <span class="title-text">${x.text}</span>
@@ -131,7 +131,7 @@ form.addEventListener("submit", (e) => {
       <p>${x.description}</p>
       <span class="date-text">Due date: ${x.date}</span>
       <span class="btn-utils">
-        <button onClick ="deleteCompletedTask(this);createTasks()" class="btn-delete"> X</button>
+        <button onClick ="deleteCompletedTask(this);createTasks()" class="btn-delete">Cancel</button>
       </span>
     </li>
       `);
