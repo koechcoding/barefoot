@@ -40,8 +40,9 @@ width: 600px;
        display: flex;
        flex-direction: row;
        margin-inline: auto;
+       /* padding-right: 80px; */
        border-left: 3px solid rgb(70, 0, 128);
-       border-right: 3px solid rgb(55, 0, 128);
+       /* border-right: 3px solid rgb(55, 0, 128); */
     
     }
   
@@ -128,7 +129,7 @@ width: 600px;
     }
     @media (min-width: 480px) {
       .container{
-        
+
       }
       .fill-form {
         padding: 20px;
